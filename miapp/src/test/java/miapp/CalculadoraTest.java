@@ -1,6 +1,6 @@
-package miapp.src.main.test.miapp;
+package miapp;
 
-import miapp.src.main.java.miapp.Calculadora;
+import miapp.src.test.java.miapp.Calculadora;
 
 public class CalculadoraTest {
     @Test

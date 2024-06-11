@@ -1,4 +1,4 @@
-package miapp.src.main.java.miapp;
+package miapp;
 
 public class Calculadora {
     public static int suma(int a, int b) {

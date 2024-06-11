@@ -1,4 +1,4 @@
-package miapp.src.main.test.miapp;
+package miapp;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
