@@ -1,8 +1,11 @@
 package miapp;
 
-import miapp.src.test.java.miapp.Calculadora;
+import org.junit.Test; // Importa la anotación @Test de JUnit
+import static org.junit.Assert.assertEquals; // Importa el método assertEquals de JUnit
+import miapp.Calculadora;
 
 public class CalculadoraTest {
+    
     @Test
     public void testSuma() {
         assertEquals(4, Calculadora.suma(2, 2));
@@ -11,11 +14,6 @@ public class CalculadoraTest {
     @Test
     public void testResta() {
         assertEquals(1, Calculadora.resta(3, 2));
-    }
-
-    private void assertEquals(int i, int resta) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'assertEquals'");
     }
 
     @Test

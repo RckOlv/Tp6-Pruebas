@@ -1,4 +1,4 @@
-package miapp.src.main.test.miapp;
+package miapp;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;

@@ -3,7 +3,7 @@ package miapp;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-import miapp.src.main.java.miapp.Calculadora;
+import miapp.Calculadora;
 
 public class CuadradoBinomioTest {
     @Test

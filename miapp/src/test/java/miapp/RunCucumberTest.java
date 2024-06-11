@@ -1,11 +1,11 @@
-package miapp.src.main.test.miapp;
+package miapp;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "miapp/main/test/resources")
+@CucumberOptions(features = "src/test/resources/features")
 public class RunCucumberTest {
     // Código de la clase
 }
