@@ -1,0 +1,5 @@
+{
+    "java.project.referencedLibraries": [
+        "libs/junit-platform-console-standalone-1.11.0-M2-javadoc.jar"
+    ]
+}
