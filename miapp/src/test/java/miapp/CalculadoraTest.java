@@ -20,4 +20,9 @@ public class CalculadoraTest {
     public void testCuadradoBinomio() {
         assertEquals(25, Calculadora.cuadradoBinomio(3, 2));
     }
+
+    @Test
+    public void testMultiplicacion() {
+        assertEquals(6, Calculadora.multiplicacion(3, 2));
+    }
 }

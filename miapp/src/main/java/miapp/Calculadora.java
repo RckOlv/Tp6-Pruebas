@@ -9,17 +9,24 @@ public class Calculadora {
         return a - b;
     }
 
+    public static int multiplicacion(int a, int b) {
+        return a * b;
+    }
+
     public static int cuadradoBinomio(int a, int b) {
         return a * a + 2 * a * b + b * b;
     }
 
     public static void main(String[] args) {
         // Aquí puedes llamar a tus métodos para probarlos
-        int resultadoSuma = suma(5, 3);
+        int resultadoSuma = suma(2, 2);
         System.out.println("Suma: " + resultadoSuma);
 
         int resultadoResta = resta(5, 3);
         System.out.println("Resta: " + resultadoResta);
+
+        int resultadoMultiplicacion = multiplicacion(5, 3);
+        System.out.println("Multiplicacion: " + resultadoMultiplicacion);
 
         int resultadoCuadradoBinomio = cuadradoBinomio(2, 3);
         System.out.println("Cuadrado del binomio: " + resultadoCuadradoBinomio);
