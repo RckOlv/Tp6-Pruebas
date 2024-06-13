@@ -22,9 +22,9 @@ public class StepDefinitions {
         this.resultadoSuma = Calculadora.suma(numero1, numero2);
     }
 
-    @When("los resto")
-    public void los_resto() {
-        this.resultadoMultiplicacion = Calculadora.resta(numero1, numero2);
+    @When("los multiplico")
+    public void los_multiplico() {
+        this.resultadoMultiplicacion = Calculadora.multiplicacion(numero1, numero2);
     }
 
     @Then("el resultado de la suma es {int}")
@@ -32,8 +32,8 @@ public class StepDefinitions {
         assertEquals(resultadoEsperado, resultadoSuma);
     }
 
-    @Then("el resultado de la multiplicacion es {int}")
-    public void el_resultado_de_la_multiplicacion_es(int resultadoEsperado) {
+    @Then("el resultado de la multiplicación es {int}")
+    public void el_resultado_de_la_multiplicación_es(int resultadoEsperado) {
         assertEquals(resultadoEsperado, resultadoMultiplicacion);
     }
 }
